@@ -1,0 +1,1512 @@
+fileFormatVersion: 2
+guid: 1ba7903c5cdb89d4a9ec6a8b065dbd5a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -237143134549093645
+    second: PC Computer - Lost Ruins - Beatrice_0
+  - first:
+      213: 645149196672165623
+    second: PC Computer - Lost Ruins - Beatrice_1
+  - first:
+      213: -6728741847160871125
+    second: PC Computer - Lost Ruins - Beatrice_2
+  - first:
+      213: 626663856344827037
+    second: PC Computer - Lost Ruins - Beatrice_3
+  - first:
+      213: -2137939274325440760
+    second: PC Computer - Lost Ruins - Beatrice_4
+  - first:
+      213: -5265654244938722351
+    second: PC Computer - Lost Ruins - Beatrice_5
+  - first:
+      213: 4133145955129838289
+    second: PC Computer - Lost Ruins - Beatrice_6
+  - first:
+      213: 2361259562375963898
+    second: PC Computer - Lost Ruins - Beatrice_7
+  - first:
+      213: 7525402693369757554
+    second: PC Computer - Lost Ruins - Beatrice_8
+  - first:
+      213: 4131254219212382563
+    second: PC Computer - Lost Ruins - Beatrice_9
+  - first:
+      213: -7880968188680613012
+    second: PC Computer - Lost Ruins - Beatrice_10
+  - first:
+      213: -1892342198938243016
+    second: PC Computer - Lost Ruins - Beatrice_11
+  - first:
+      213: -369405785026293646
+    second: PC Computer - Lost Ruins - Beatrice_12
+  - first:
+      213: 2776732547831823570
+    second: PC Computer - Lost Ruins - Beatrice_13
+  - first:
+      213: 1910754832515801145
+    second: PC Computer - Lost Ruins - Beatrice_14
+  - first:
+      213: 3452749254862633161
+    second: PC Computer - Lost Ruins - Beatrice_15
+  - first:
+      213: 3966975659233591311
+    second: PC Computer - Lost Ruins - Beatrice_16
+  - first:
+      213: -5087599672989000440
+    second: PC Computer - Lost Ruins - Beatrice_17
+  - first:
+      213: -58603191688793573
+    second: PC Computer - Lost Ruins - Beatrice_18
+  - first:
+      213: 664659930747276749
+    second: PC Computer - Lost Ruins - Beatrice_19
+  - first:
+      213: 768022368613933154
+    second: PC Computer - Lost Ruins - Beatrice_20
+  - first:
+      213: -8710893517186501315
+    second: PC Computer - Lost Ruins - Beatrice_21
+  - first:
+      213: -1195751787746747104
+    second: PC Computer - Lost Ruins - Beatrice_22
+  - first:
+      213: -4345716377214430769
+    second: PC Computer - Lost Ruins - Beatrice_23
+  - first:
+      213: 1743071892884761089
+    second: PC Computer - Lost Ruins - Beatrice_24
+  - first:
+      213: 3567846673584287623
+    second: PC Computer - Lost Ruins - Beatrice_25
+  - first:
+      213: -2952458454144602285
+    second: PC Computer - Lost Ruins - Beatrice_26
+  - first:
+      213: -3715771549104665835
+    second: PC Computer - Lost Ruins - Beatrice_27
+  - first:
+      213: 5474477682071157410
+    second: PC Computer - Lost Ruins - Beatrice_28
+  - first:
+      213: -2224806795262238291
+    second: PC Computer - Lost Ruins - Beatrice_29
+  - first:
+      213: -6553385629389477812
+    second: PC Computer - Lost Ruins - Beatrice_30
+  - first:
+      213: -8894573731596228120
+    second: PC Computer - Lost Ruins - Beatrice_31
+  - first:
+      213: 5502789502977311726
+    second: PC Computer - Lost Ruins - Beatrice_32
+  - first:
+      213: 273082474596190943
+    second: PC Computer - Lost Ruins - Beatrice_33
+  - first:
+      213: 4348771746640282883
+    second: PC Computer - Lost Ruins - Beatrice_34
+  - first:
+      213: 120957498042844270
+    second: PC Computer - Lost Ruins - Beatrice_35
+  - first:
+      213: 9095519295610689010
+    second: PC Computer - Lost Ruins - Beatrice_36
+  - first:
+      213: -817311339357241930
+    second: PC Computer - Lost Ruins - Beatrice_37
+  - first:
+      213: 9042435085834459595
+    second: PC Computer - Lost Ruins - Beatrice_38
+  - first:
+      213: 4856790485197316234
+    second: PC Computer - Lost Ruins - Beatrice_39
+  - first:
+      213: -2784955094888513038
+    second: PC Computer - Lost Ruins - Beatrice_40
+  - first:
+      213: -4041381984574661571
+    second: PC Computer - Lost Ruins - Beatrice_41
+  - first:
+      213: 2653717570374762173
+    second: PC Computer - Lost Ruins - Beatrice_42
+  - first:
+      213: -7078689474634833549
+    second: PC Computer - Lost Ruins - Beatrice_43
+  - first:
+      213: 781228078585946125
+    second: PC Computer - Lost Ruins - Beatrice_44
+  - first:
+      213: -5158913655514525198
+    second: PC Computer - Lost Ruins - Beatrice_45
+  - first:
+      213: 4692542010001881219
+    second: PC Computer - Lost Ruins - Beatrice_46
+  - first:
+      213: 4298741795525417803
+    second: PC Computer - Lost Ruins - Beatrice_47
+  - first:
+      213: -8506317194598491071
+    second: PC Computer - Lost Ruins - Beatrice_48
+  - first:
+      213: -4188453296346699679
+    second: PC Computer - Lost Ruins - Beatrice_49
+  - first:
+      213: -3022789634790313374
+    second: PC Computer - Lost Ruins - Beatrice_50
+  - first:
+      213: -8542751982222181161
+    second: PC Computer - Lost Ruins - Beatrice_51
+  - first:
+      213: -1963999738407432535
+    second: PC Computer - Lost Ruins - Beatrice_52
+  - first:
+      213: 4664752298178838438
+    second: PC Computer - Lost Ruins - Beatrice_53
+  - first:
+      213: 2731368755707162901
+    second: PC Computer - Lost Ruins - Beatrice_54
+  - first:
+      213: 1202613736400114528
+    second: PC Computer - Lost Ruins - Beatrice_55
+  - first:
+      213: 9004925892626629174
+    second: PC Computer - Lost Ruins - Beatrice_56
+  - first:
+      213: 7033398356733556521
+    second: PC Computer - Lost Ruins - Beatrice_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f25748539f75bcf0800000000000000
+      internalID: -237143134549093645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 275
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6e5c6b6c704f800800000000000000
+      internalID: 645149196672165623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 275
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27abaeb0f4be92a0800000000000000
+      internalID: -6728741847160871125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d948207057b52b800800000000000000
+      internalID: 626663856344827037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807c97aae838452e0800000000000000
+      internalID: -2137939274325440760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d35664ec53ace6b0800000000000000
+      internalID: -5265654244938722351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da4b5c0952eb5930800000000000000
+      internalID: 4133145955129838289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 275
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4e9edbf01e4c020800000000000000
+      internalID: 2361259562375963898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 275
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f721ad0e99f6860800000000000000
+      internalID: 7525402693369757554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 275
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361ecf4f2d9255930800000000000000
+      internalID: 4131254219212382563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 275
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d983003d21a290800000000000000
+      internalID: -7880968188680613012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 275
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830fdcecbcc0db5e0800000000000000
+      internalID: -1892342198938243016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 275
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270988d456b9fdaf0800000000000000
+      internalID: -369405785026293646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_13
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 275
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcf7cd5a8fe88620800000000000000
+      internalID: 2776732547831823570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_14
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 275
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93027f4856d548a10800000000000000
+      internalID: 1910754832515801145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f4926721aaef20800000000000000
+      internalID: 3452749254862633161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_16
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f004d3918578d0730800000000000000
+      internalID: 3966975659233591311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_17
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dd81c7d073569b0800000000000000
+      internalID: -5087599672989000440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_18
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 275
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b127fa825bccf2ff0800000000000000
+      internalID: -58603191688793573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_19
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 275
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd80ac7fa8593900800000000000000
+      internalID: 664659930747276749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 275
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260a9cc664098aa00800000000000000
+      internalID: 768022368613933154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_21
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 275
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3578d79f70bc1780800000000000000
+      internalID: -8710893517186501315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_22
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 275
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d11db9516d76fe0800000000000000
+      internalID: -1195751787746747104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_23
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 275
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc15981caf9e0b3c0800000000000000
+      internalID: -4345716377214430769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_24
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 275
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a2d51c6a2a03810800000000000000
+      internalID: 1743071892884761089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fec0875a9838130800000000000000
+      internalID: 3567846673584287623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 206
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fac92cda2c607d0800000000000000
+      internalID: -2952458454144602285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 206
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b0d1d867dee6cc0800000000000000
+      internalID: -3715771549104665835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 206
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aab7a2627049fb40800000000000000
+      internalID: 5474477682071157410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 206
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e48ad106ef11e0800000000000000
+      internalID: -2224806795262238291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 206
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48271ccd72bd05a0800000000000000
+      internalID: -6553385629389477812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 206
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9afab0150209480800000000000000
+      internalID: -8894573731596228120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee306bed5e5dd5c40800000000000000
+      internalID: 5502789502977311726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 189
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac0b4501f2ac300800000000000000
+      internalID: 273082474596190943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305cfbfdcd0f95c30800000000000000
+      internalID: 4348771746640282883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 138
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6483cf143abda100800000000000000
+      internalID: 120957498042844270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_36
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 138
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51696fb96c93e70800000000000000
+      internalID: 9095519295610689010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 138
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd76bacaa358a4f0800000000000000
+      internalID: -817311339357241930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 138
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc911bb3dce2d7d70800000000000000
+      internalID: 9042435085834459595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 138
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80eea2c639c66340800000000000000
+      internalID: 4856790485197316234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_40
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 138
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f181c5b81ad959d0800000000000000
+      internalID: -2784955094888513038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_41
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 138
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c93c74f702ae7c0800000000000000
+      internalID: -4041381984574661571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_42
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 138
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe766cf116e3d420800000000000000
+      internalID: 2653717570374762173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_43
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 138
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37128156d6173cd90800000000000000
+      internalID: -7078689474634833549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d002da06cca77da00800000000000000
+      internalID: 781228078585946125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 121
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f115280d5bd768b0800000000000000
+      internalID: -5158913655514525198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 123
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38872cf88124f1140800000000000000
+      internalID: 4692542010001881219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_47
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bda6723e238ab30800000000000000
+      internalID: 4298741795525417803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 71
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cd825749d73f980800000000000000
+      internalID: -8506317194598491071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_49
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 71
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168e0f81bef9fd5c0800000000000000
+      internalID: -4188453296346699679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_50
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 71
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2623793b7d4ec06d0800000000000000
+      internalID: -3022789634790313374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_51
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 71
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcf167655c027980800000000000000
+      internalID: -8542751982222181161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_52
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 71
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aec345c4a87eb4e0800000000000000
+      internalID: -1963999738407432535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_53
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 71
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aff22210878cb040800000000000000
+      internalID: 4664752298178838438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 71
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511b6827965c7e520800000000000000
+      internalID: 2731368755707162901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063522052da80b010800000000000000
+      internalID: 1202613736400114528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_56
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 56
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6324ab2a36ce7fc70800000000000000
+      internalID: 9004925892626629174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Lost Ruins - Beatrice_57
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9277be87a86ab9160800000000000000
+      internalID: 7033398356733556521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
