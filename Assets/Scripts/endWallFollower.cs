@@ -27,4 +27,13 @@ public class endWallFollower : MonoBehaviour
             }
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collider)
+    {
+        if (collider.gameObject.CompareTag("GroundEnemy"))
+            gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+
+        if (collider.gameObject.CompareTag("Player"))
+            gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+    }
 }

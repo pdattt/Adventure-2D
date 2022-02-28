@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5992797589342486720}
   - component: {fileID: 7486507452215220619}
   - component: {fileID: 1599038032603643388}
+  - component: {fileID: 2653341429206311076}
   m_Layer: 6
   m_Name: goblin
   m_TagString: GroundEnemy
@@ -139,10 +140,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0106983185, y: -0.19790816}
+  m_Offset: {x: -0.0011746883, y: -0.18603516}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +154,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.66789246, y: 0.699986}
+  m_Size: {x: 0.64414644, y: 0.67623997}
   m_EdgeRadius: 0
 --- !u!82 &7486507452215220619
 AudioSource:
@@ -265,6 +266,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioGoblin: {fileID: 7486507452215220619}
   attack: {fileID: 8300000, guid: 76c5bcf7d6b059547af15673d0cb46cf, type: 3}
+--- !u!61 &2653341429206311076
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271884009123414722}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04668045, y: -0.52486587}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 3}
+    newSize: {x: 3, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.52216816, y: 0.015746593}
+  m_EdgeRadius: 0
 --- !u!1 &3182424261612661542
 GameObject:
   m_ObjectHideFlags: 0
