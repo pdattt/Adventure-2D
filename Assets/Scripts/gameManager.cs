@@ -20,5 +20,23 @@ public class gameManager : MonoBehaviour
     public float goblinAttackRate = 2;
     public int goblinAttackDamage = 1;
 
+    public heroMovement hero;
+    public GameObject healthBar;
+    public float fullHealth;
 
+    void Start()
+    {
+        fullHealth = hero.health;
+    }
+
+    void Update()
+    {
+        if (healthBar.GetComponent<UnityEngine.UI.Image>().fillAmount == 0)
+            Debug.Log("End game");
+
+        if (hero)
+        {
+            healthBar.GetComponent<UnityEngine.UI.Image>().fillAmount = hero.health/ fullHealth;
+        }
+    }
 }

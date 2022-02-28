@@ -79,20 +79,24 @@ public class groundEnemy : MonoBehaviour
             anim.SetBool("Dead", true);
             Destroy(gameObject, 1);
         }
-
-        anim.SetTrigger("Hit");
-        Flinch();
-        health -= damage;
+        else
+        {
+            anim.SetTrigger("Hit");
+            Flinch();
+            health -= damage;
+        }
     }
 
     void Flinch()
     {
-        FlinchDelay(0.6f);
+        FlinchDelay(1f);
     }
 
     IEnumerator FlinchDelay(float delayTime)
     {
         speed = 0;
+
+        yield return new WaitForSeconds(delayTime);
 
         yield return new WaitForSeconds(delayTime);
 

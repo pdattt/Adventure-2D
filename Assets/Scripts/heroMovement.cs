@@ -91,10 +91,17 @@ public class heroMovement : MonoBehaviour
             soundManager.PlaySound("blood_explode");
             Destroy(gameObject);
         }
+
+        //if (collision.CompareTag("Ally"))
+        //{
+        //    health = 5;
+        //    Debug.Log("Heal");
+        //}
     }
 
     public void TakeDamage(int damage)
     {
         health -= damage;
+        animator.SetTrigger("Hit");
     }
 }

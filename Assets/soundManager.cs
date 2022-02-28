@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class soundManager : MonoBehaviour
 {
-    public static AudioClip playerAttack, fireball, poof, step, blood_explode, coin;
+    public static AudioClip playerAttack, fireball, poof, step, blood_explode, coin, heal;
     static AudioSource audioSrc;
 
     void Start()
@@ -15,6 +15,7 @@ public class soundManager : MonoBehaviour
         step = Resources.Load<AudioClip>("step");
         blood_explode = Resources.Load<AudioClip>("blood_explosion");
         coin = Resources.Load<AudioClip>("coin");
+        heal = Resources.Load<AudioClip>("heal");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -42,6 +43,10 @@ public class soundManager : MonoBehaviour
             case "coin":
                 audioSrc.volume = 0.6f;
                 audioSrc.PlayOneShot(coin);
+                break;
+            case "heal":
+                audioSrc.volume = 0.8f;
+                audioSrc.PlayOneShot(heal);
                 break;
         }
     }

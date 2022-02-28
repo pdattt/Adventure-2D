@@ -9,6 +9,7 @@ TagManager:
   - FloatingGround
   - GroundEnemy
   - EndPoint
+  - Ally
   layers:
   - Default
   - TransparentFX
