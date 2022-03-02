@@ -60,7 +60,7 @@ public class heroMovement : MonoBehaviour
         if (health <= 0)
         {
             Instantiate(explosion, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            Destroy(gameObject, 0.001f);
         }
 
         float h = Input.GetAxis("Horizontal");
@@ -87,9 +87,10 @@ public class heroMovement : MonoBehaviour
     {
         if(collision.CompareTag("Enemy"))
         {
+            health = 0;
             Instantiate(explosion, transform.position, Quaternion.identity);
             soundManager.PlaySound("blood_explode");
-            Destroy(gameObject);
+            Destroy(gameObject, 0.001f);
         }
 
         //if (collision.CompareTag("Ally"))
