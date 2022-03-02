@@ -106,6 +106,7 @@ m_PackageAssets:
         - 5.0.9
         - 5.0.10
         - 5.1.0
+        - 5.1.1
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -119,12 +120,14 @@ m_PackageAssets:
         - 7.0.1
         - 7.0.2
         - 7.0.3
+        - 7.0.4
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
         compatible:
         - 5.1.0
-        verified: 5.1.0
+        - 5.1.1
+        verified: 5.1.1
       dependencies:
       - name: com.unity.2d.common
         version: 4.1.0
@@ -325,6 +328,7 @@ m_PackageAssets:
         - 6.0.0
         - 6.0.1
         - 6.0.2
+        - 6.0.3
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
@@ -521,6 +525,7 @@ m_PackageAssets:
         - 7.0.0
         - 7.0.2
         - 7.0.3
+        - 7.0.4
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
@@ -3646,4 +3651,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: D:/Unity/First game demo/2D/Adventure/Packages
-m_EditorVersion: 2020.3.29f1 (2ff179115da0)
+m_EditorVersion: 2020.3.30f1 (1fb1bf06830e)

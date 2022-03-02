@@ -8,6 +8,8 @@ public class beatriceContact : MonoBehaviour
     public int heroFullHealth;
     public Animator animator;
     public AudioSource audioCast;
+    public GameObject fadeHealthBar;
+    //public float FadeRate;
 
     void Start()
     {
@@ -20,6 +22,7 @@ public class beatriceContact : MonoBehaviour
         {
             Debug.Log("Heal");
             animator.SetTrigger("Touch");
+            StartCoroutine(FadeImage(true));
             audioCast.Play();
             hero.GetComponent<heroMovement>().health = heroFullHealth;
             StartCoroutine(Heal());
@@ -34,4 +37,28 @@ public class beatriceContact : MonoBehaviour
         soundManager.PlaySound("heal");
     }
 
+    //IEnumerator FadeIn()
+    //{
+    //    float targetAlpha = 1.0f;
+    //    Color curColor = fadeHealthBar.GetComponent<UnityEngine.UI.Image>().color;
+    //    while (Mathf.Abs(curColor.a - targetAlpha) > 0.0001f)
+    //    {
+    //        Debug.Log(fadeHealthBar.GetComponent<UnityEngine.UI.Image>().material.color.a);
+    //        curColor.a = Mathf.Lerp(curColor.a, targetAlpha, FadeRate * Time.deltaTime);
+    //        fadeHealthBar.GetComponent<UnityEngine.UI.Image>().color = curColor;
+    //        yield return null;
+    //    }
+    //}
+
+    IEnumerator FadeImage(bool fadeAway)
+    {
+        if (fadeAway)
+        {
+            for (float i = 1; i >= 0; i -= Time.deltaTime)
+            {
+                fadeHealthBar.GetComponent<UnityEngine.UI.Image>().color = new Color(151, 241, 156, i);
+                yield return null;
+            }
+        }
+    }
 }
