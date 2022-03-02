@@ -89,7 +89,7 @@ public class groundEnemy : MonoBehaviour
 
     void Flinch()
     {
-        FlinchDelay(1f);
+        StartCoroutine(FlinchDelay(1f));
     }
 
     IEnumerator FlinchDelay(float delayTime)
