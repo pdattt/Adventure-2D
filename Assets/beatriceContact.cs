@@ -32,7 +32,7 @@ public class beatriceContact : MonoBehaviour
                 Destroy(Instantiate(heal, hero.transform.position, Quaternion.identity, hero.transform), 0.8f);
                 //heal.transform.parent = hero.transform;
                 healCount--;
-                Destroy(gameObject, 0.8f);
+                Destroy(gameObject, 1.6f);
             }
         }           
     }
