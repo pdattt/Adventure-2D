@@ -10,6 +10,7 @@ public class beatriceContact : MonoBehaviour
     public AudioSource audioCast;
     public GameObject fadeHealthBar;
     //public float FadeRate;
+    private int healCount = 1;
 
     void Start()
     {
@@ -20,14 +21,19 @@ public class beatriceContact : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            Debug.Log("Heal");
-            animator.SetTrigger("Touch");
-            StartCoroutine(FadeImage(true));
-            audioCast.Play();
-            hero.GetComponent<heroMovement>().health = heroFullHealth;
-            StartCoroutine(Heal());
-            Destroy(Instantiate(heal, hero.transform.position, Quaternion.identity, hero.transform), 0.8f);
-            //heal.transform.parent = hero.transform;
+            if (healCount > 0)
+            {
+                Debug.Log("Heal");
+                animator.SetTrigger("Touch");
+                StartCoroutine(FadeImage(true));
+                audioCast.Play();
+                hero.GetComponent<heroMovement>().health = heroFullHealth;
+                StartCoroutine(Heal());
+                Destroy(Instantiate(heal, hero.transform.position, Quaternion.identity, hero.transform), 0.8f);
+                //heal.transform.parent = hero.transform;
+                healCount--;
+                Destroy(gameObject, 0.8f);
+            }
         }           
     }
 
