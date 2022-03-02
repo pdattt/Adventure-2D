@@ -55,6 +55,11 @@ public class heroAttack : MonoBehaviour
                         enemiesToDamage[i].GetComponent<groundEnemy>().TakeDamage(attackDamage);
                     }
 
+                    if (enemiesToDamage[i].CompareTag("Kana"))
+                    {
+                        enemiesToDamage[i].GetComponent<kana>().TakeDamage(attackDamage);
+                    }
+
                     Debug.Log("Hit!");
                 }
 

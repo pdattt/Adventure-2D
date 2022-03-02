@@ -45,6 +45,11 @@ public class fireBall : MonoBehaviour
         {
             collider.GetComponent<groundEnemy>().TakeDamage(damage);
         }
+
+        if (collider.CompareTag("Kana"))
+        {
+            collider.GetComponent<kana>().TakeDamage(damage);
+        }
     }
 
     void Flip()

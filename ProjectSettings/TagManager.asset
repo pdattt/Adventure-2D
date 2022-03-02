@@ -10,6 +10,7 @@ TagManager:
   - GroundEnemy
   - EndPoint
   - Ally
+  - Kana
   layers:
   - Default
   - TransparentFX
