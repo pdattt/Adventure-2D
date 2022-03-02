@@ -463,30 +463,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3785067789448966461, guid: 29f988bd394d8eb4eb83976a481cef4c, type: 3}
   m_PrefabInstance: {fileID: 967414349}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &208650973 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3847444183503896984, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
-  m_PrefabInstance: {fileID: 895450501}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &208650976
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208650973}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c0cf68f76881a2a4c8cea3b6d8e62d89, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &217970710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,30 +2575,10 @@ PrefabInstance:
     - target: {fileID: 3847444183503896983, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
       propertyPath: hero
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3847444183503896983, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
-      propertyPath: Enemy
-      value: 
-      objectReference: {fileID: 2850384800824374498, guid: 24000736367f5cf4ea12fc282b11d319, type: 3}
-    - target: {fileID: 3847444183503896983, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
-      propertyPath: spawnRate
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3847444183503896983, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
-      propertyPath: setDistance
-      value: 15
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1122108189}
     - target: {fileID: 3847444183503896984, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 3847444183503896984, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3847444183503896984, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3807dcff820db9641a79f50dee5b2da1, type: 3}
