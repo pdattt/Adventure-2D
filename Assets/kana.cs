@@ -11,15 +11,15 @@ public class kana : MonoBehaviour
     {
         if (!isInvisible)
         {
+            StartCoroutine(turnInvisible());
             health -= damage;
         }
     }
 
     IEnumerator turnInvisible()
     {
-        yield return new WaitForSeconds(2f);
         isInvisible = true;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         isInvisible = false;
     }
 }
