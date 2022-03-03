@@ -4,22 +4,49 @@ using UnityEngine;
 
 public class kana : MonoBehaviour
 {
+    private Animator animator;
     public int health;
-    public bool isInvisible = true;
+    public static bool isInvisible = false;
+    public static bool isFacingRight = false;
+
+    void Start()
+    {
+        animator = gameObject.GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        
+    }
 
     public void TakeDamage(int damage)
     {
-        if (!isInvisible)
+        if (isInvisible == false)
         {
-            StartCoroutine(turnInvisible());
+            animator.SetTrigger("Hit");
+            StartCoroutine(turnInvisible(1f)); 
             health -= damage;
         }
     }
 
-    IEnumerator turnInvisible()
+    IEnumerator turnInvisible(float delayTime)
     {
         isInvisible = true;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(delayTime);
         isInvisible = false;
+    }
+
+    public void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector2 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), collision.gameObject.GetComponent<Collider2D>());  
     }
 }

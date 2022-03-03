@@ -83,7 +83,7 @@ public class heroAttack : MonoBehaviour
                 animator.SetTrigger("DrawSword");
                 //Instantiate(slash, attackPos.position, Quaternion.identity);
                 
-                Destroy(Instantiate(spell, transform.position, Quaternion.identity), 3);
+                Destroy(Instantiate(spell, transform.position, Quaternion.identity), 1.5f);
 
                 timeBtwCast = startTimeCast;
             }

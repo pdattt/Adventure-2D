@@ -14,7 +14,7 @@ public class fireBall : MonoBehaviour
 
     void Start()
     {
-        Destroy(Instantiate(spellExplosion, transform.position, Quaternion.identity), 2);
+        Instantiate(spellExplosion, transform.position, Quaternion.identity);
         hero = GameObject.FindGameObjectWithTag("Player");
 
         if (hero.GetComponent<heroMovement>().isFacingRight && !isFacingRight)

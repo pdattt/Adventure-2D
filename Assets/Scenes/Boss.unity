@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 575644721}
   - component: {fileID: 575644720}
   - component: {fileID: 575644725}
+  - component: {fileID: 575644726}
   m_Layer: 6
   m_Name: kana
   m_TagString: Kana
@@ -534,7 +535,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  isInvisible: 0
+--- !u!114 &575644726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575644719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affe6ccdeaecf16439f734bbdbb2c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero: {fileID: 653091295}
+  rigidBody: {fileID: 575644720}
+  jumpForce: 18
+  startTimeAction: 3
+  isMakingAction: 0
+  isJumping: 0
 --- !u!1001 &653091294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -620,6 +638,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0986e53e94ae1924ebf37c19dcb7314e, type: 3}
+--- !u!1 &653091295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 476044640552225666, guid: 0986e53e94ae1924ebf37c19dcb7314e, type: 3}
+  m_PrefabInstance: {fileID: 653091294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &706485436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1313,6 +1336,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39c4c3cbfc90b244a8afc37c06c9daf0, type: 3}
+--- !u!1 &1736553447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736553448}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736553448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736553447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.018573206, y: -1.53, z: -15.663146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1931830855
 PrefabInstance:
   m_ObjectHideFlags: 0
