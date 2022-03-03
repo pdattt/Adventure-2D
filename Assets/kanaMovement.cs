@@ -5,14 +5,14 @@ using UnityEngine;
 public class kanaMovement : MonoBehaviour
 {
     Animator animator;
-    public float speed;
+    public static float speed;
     public GameObject hero;
     public Rigidbody2D rigidBody;
     public float jumpForce;
 
     private float timePerAction;
     public float startTimeAction;
-    public bool isMakingAction = false, isJumping = false;
+    public static bool isMakingAction = false, isJumping = false, isFlinch = false;
 
     void Start()
     {
@@ -68,6 +68,18 @@ public class kanaMovement : MonoBehaviour
         }
     }
 
+    public void Flinching()
+    {
+        StartCoroutine(Flinch());
+    }
+
+    IEnumerator Flinch()
+    {
+        yield return new WaitForSeconds(1f);
+        isFlinch = false;
+        kana.isInvisible = false;
+    }
+
     IEnumerator MakeAction()
     {
         int action = Random.Range(1, 3);
@@ -106,7 +118,11 @@ public class kanaMovement : MonoBehaviour
 
         if (distance > 2)
         {
-            speed = 5;
+            if (!isFlinch)
+                speed = 5;
+            else
+                speed = 0;
+
             if (transform.position.x < position.x)
             {
                 horizontalMove = 1;

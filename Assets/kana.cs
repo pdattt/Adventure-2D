@@ -24,7 +24,10 @@ public class kana : MonoBehaviour
         if (isInvisible == false)
         {
             animator.SetTrigger("Hit");
-            StartCoroutine(turnInvisible(1f)); 
+            isInvisible = true;
+            kanaMovement.isFlinch = true;
+            GetComponent<kanaMovement>().Flinching();
+            //StartCoroutine(turnInvisible(1f)); 
             health -= damage;
         }
     }
