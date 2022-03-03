@@ -5,7 +5,7 @@ using UnityEngine;
 public class kanaMovement : MonoBehaviour
 {
     Animator animator;
-    public static float speed = 5;
+    public float speed;
     public GameObject hero;
     public Rigidbody2D rigidBody;
     public float jumpForce;
@@ -31,7 +31,7 @@ public class kanaMovement : MonoBehaviour
         else
             isJumping = false;
 
-        Move(hero.transform.position);
+        //Move(hero.transform.position);
         //Jumping();
         //Action();
     }
@@ -98,36 +98,30 @@ public class kanaMovement : MonoBehaviour
         yield return new WaitForSeconds(delayTime);
     }
 
-    void Move(Vector3 position)
+    public void Move(Vector3 position)
     {
         int horizontalMove;
 
-        float distance = Vector2.Distance(transform.position, hero.transform.position);
+        float distance = Vector2.Distance(transform.position, position);
 
-        if(Mathf.Abs(transform.position.y - position.y) <= 2 || transform.position.y > position.y)
+        if (distance > 2)
         {
-            if (distance > 1)
+            speed = 5;
+            if (transform.position.x < position.x)
             {
-                speed = 5;
+                horizontalMove = 1;
 
-                if (transform.position.x < position.x)
-                {
-                    horizontalMove = 1;
-
-                    if (!kana.isFacingRight)
-                        gameObject.GetComponent<kana>().Flip();
-                }
-                else
-                {
-                    horizontalMove = -1;
-                    if (kana.isFacingRight)
-                        gameObject.GetComponent<kana>().Flip();
-                }
-
-                transform.position += new Vector3(horizontalMove, 0, 0) * speed * Time.deltaTime;
+                if (!kana.isFacingRight)
+                    gameObject.GetComponent<kana>().Flip();
             }
             else
-                speed = 0;
+            {
+                horizontalMove = -1;
+                if (kana.isFacingRight)
+                    gameObject.GetComponent<kana>().Flip();
+            }
+
+            transform.position += new Vector3(horizontalMove, 0, 0) * speed * Time.deltaTime;
         }
         else
             speed = 0;
