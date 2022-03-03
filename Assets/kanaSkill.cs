@@ -12,12 +12,12 @@ public class kanaSkill : MonoBehaviour
     public static bool isUsingSkill = false;
 
     kana kanaStatus;
-    kanaMovement kana;
+    kanaMovement kanaMovement;
     heroMovement hero;
 
     void Start()
     {
-        kana = GetComponent<kanaMovement>();
+        kanaMovement = GetComponent<kanaMovement>();
         kanaStatus = GetComponent<kana>();
         hero = GetComponent<heroMovement>();
 
@@ -30,7 +30,13 @@ public class kanaSkill : MonoBehaviour
 
         if (isUsingSkill)
         {
-            kana.Move(skillA[random].position);
+            if (kanaMovement.Move(skillA[random].position))
+            {
+                if (random == 0 && !kana.isFacingRight)
+                    kanaStatus.Flip();
+                else if(random == 1 && kana.isFacingRight)
+                    kanaStatus.Flip();
+            }
         }
     }
 

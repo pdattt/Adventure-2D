@@ -10,14 +10,17 @@ public class kanaMovement : MonoBehaviour
     public Rigidbody2D rigidBody;
     public float jumpForce;
 
+    kana kanaStatus;
+
     private float timePerAction;
     public float startTimeAction;
-    public static bool isMakingAction = false, isJumping = false, isFlinch = false;
+    public static bool isJumping = false, isFlinch = false;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
+        kanaStatus = GetComponent<kana>();
 
         Stand();
     }
@@ -110,7 +113,7 @@ public class kanaMovement : MonoBehaviour
         yield return new WaitForSeconds(delayTime);
     }
 
-    public void Move(Vector3 position)
+    public bool Move(Vector3 position)
     {
         int horizontalMove;
 
@@ -118,6 +121,7 @@ public class kanaMovement : MonoBehaviour
 
         if (distance > 2)
         {
+
             if (!isFlinch)
                 speed = 5;
             else
@@ -140,6 +144,10 @@ public class kanaMovement : MonoBehaviour
             transform.position += new Vector3(horizontalMove, 0, 0) * speed * Time.deltaTime;
         }
         else
+        {
             speed = 0;
+            return true;
+        }
+        return false;
     }
 }

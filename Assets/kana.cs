@@ -6,17 +6,11 @@ public class kana : MonoBehaviour
 {
     private Animator animator;
     public int health;
-    public static bool isInvisible = false;
-    public static bool isFacingRight = false;
+    public static bool isInvisible = false, isFacingRight = false, isMakingAction = false;
 
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        
     }
 
     public void TakeDamage(int damage)
