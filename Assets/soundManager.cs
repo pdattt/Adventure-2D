@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class soundManager : MonoBehaviour
 {
-    public static AudioClip playerAttack, fireball, poof, step, blood_explode, coin, heal;
+    public static AudioClip playerAttack, fireball, poof, step, blood_explode, coin, heal, cut, fireball_impact, campfire;
     static AudioSource audioSrc;
 
     void Start()
@@ -16,6 +16,9 @@ public class soundManager : MonoBehaviour
         blood_explode = Resources.Load<AudioClip>("blood_explosion");
         coin = Resources.Load<AudioClip>("coin");
         heal = Resources.Load<AudioClip>("heal");
+        cut = Resources.Load<AudioClip>("cut");
+        fireball_impact = Resources.Load<AudioClip>("fireball_impact");
+        campfire = Resources.Load<AudioClip>("campfire");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -47,6 +50,18 @@ public class soundManager : MonoBehaviour
             case "heal":
                 audioSrc.volume = 0.8f;
                 audioSrc.PlayOneShot(heal);
+                break;
+            case "cut":
+                audioSrc.volume = 0.5f;
+                audioSrc.PlayOneShot(cut);
+                break;
+            case "fireball_impact":
+                audioSrc.volume = 0.5f;
+                audioSrc.PlayOneShot(fireball_impact);
+                break;
+            case "campfire":
+                audioSrc.volume = 0.5f;
+                audioSrc.PlayOneShot(campfire);
                 break;
         }
     }

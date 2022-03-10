@@ -192,7 +192,9 @@ MonoBehaviour:
   animator: {fileID: 476044640552225677}
   isFacingRight: 1
   explosion: {fileID: 7016335120101021070, guid: 9ccff631016504a45b81caff33fc33ba, type: 3}
-  health: 3
+  slash: {fileID: 3489465495906998372, guid: b071bd963059c7a4a934d370673a25a2, type: 3}
+  damageText: {fileID: 4881488025246699548, guid: e6dd9a8a5b2818b499282fda568f97a3, type: 3}
+  health: 5
 --- !u!1001 &718943526907350951
 PrefabInstance:
   m_ObjectHideFlags: 0

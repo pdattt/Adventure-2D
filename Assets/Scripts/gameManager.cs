@@ -24,6 +24,9 @@ public class gameManager : MonoBehaviour
     public GameObject healthBar;
     public float fullHealth;
 
+    public GameObject scoreText;
+    public static int score = 0;
+
     void Start()
     {
         fullHealth = hero.health;
@@ -36,7 +39,9 @@ public class gameManager : MonoBehaviour
 
         if (hero)
         {
-            healthBar.GetComponent<UnityEngine.UI.Image>().fillAmount = hero.health/ fullHealth;
+            healthBar.GetComponent<UnityEngine.UI.Image>().fillAmount = hero.health / fullHealth;
         }
+
+        scoreText.GetComponent<TMPro.TextMeshProUGUI>().text = "x " + " " + score.ToString();
     }
 }

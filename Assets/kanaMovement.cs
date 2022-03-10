@@ -83,24 +83,24 @@ public class kanaMovement : MonoBehaviour
         kana.isInvisible = false;
     }
 
-    IEnumerator MakeAction()
-    {
-        int action = Random.Range(1, 3);
-        yield return new WaitForSeconds(2f);
-        Debug.Log(action);
+    //IEnumerator MakeAction()
+    //{
+    //    int action = Random.Range(1, 3);
+    //    yield return new WaitForSeconds(2f);
+    //    Debug.Log(action);
 
-        switch (action)
-        {
-            case 1:
-                Stand();
-                yield return new WaitForSeconds(2f);
-                break;
-            case 2:
-                Move(hero.transform.position);
-                yield return new WaitForSeconds(1f);
-                break;
-        }
-    }
+    //    switch (action)
+    //    {
+    //        case 1:
+    //            Stand();
+    //            yield return new WaitForSeconds(2f);
+    //            break;
+    //        case 2:
+    //            Move(hero.transform.position);
+    //            yield return new WaitForSeconds(1f);
+    //            break;
+    //    }
+    //}
 
     void Stand()
     {
@@ -113,41 +113,48 @@ public class kanaMovement : MonoBehaviour
         yield return new WaitForSeconds(delayTime);
     }
 
-    public bool Move(Vector3 position)
+    public bool Move(Vector3 position, float speedSet)
     {
-        int horizontalMove;
-
-        float distance = Vector2.Distance(transform.position, position);
-
-        if (distance > 2)
+        if (position != null)
         {
+            int horizontalMove;
 
-            if (!isFlinch)
-                speed = 5;
-            else
-                speed = 0;
+            float distance = Vector2.Distance(transform.position, position);
 
-            if (transform.position.x < position.x)
+            if (distance > 1.5)
             {
-                horizontalMove = 1;
 
-                if (!kana.isFacingRight)
-                    gameObject.GetComponent<kana>().Flip();
-            }
-            else
-            {
-                horizontalMove = -1;
-                if (kana.isFacingRight)
-                    gameObject.GetComponent<kana>().Flip();
+                if (!isFlinch)
+                    speed = speedSet;
+                else
+                    speed = 0;
+
+                if (transform.position.x < position.x)
+                {
+                    horizontalMove = 1;
+
+                    if (!kana.isFacingRight)
+                        gameObject.GetComponent<kana>().Flip();
+                }
+                else
+                {
+                    horizontalMove = -1;
+                    if (kana.isFacingRight)
+                        gameObject.GetComponent<kana>().Flip();
+                }
+
+                if (kana.health <= 0)
+                    return true;
+
+                transform.position += new Vector3(horizontalMove, 0, 0) * speed * Time.deltaTime;
+                return false;
+
             }
 
-            transform.position += new Vector3(horizontalMove, 0, 0) * speed * Time.deltaTime;
-        }
-        else
-        {
             speed = 0;
-            return true;
         }
-        return false;
+
+        return true;
+       
     }
 }

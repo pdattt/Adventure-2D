@@ -14,7 +14,10 @@ public class heroMovement : MonoBehaviour
     private Rigidbody2D _rigidBody2D;
     public GameObject explosion;
     private int countJump;
+    public GameObject slash;
+    public static bool isPaused = false;
 
+    public GameObject damageText;
     public int health = 3;
 
     void Start()
@@ -85,7 +88,7 @@ public class heroMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
             health = 0;
             Instantiate(explosion, transform.position, Quaternion.identity);
@@ -102,7 +105,11 @@ public class heroMovement : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Destroy(Instantiate(slash, transform.position, Quaternion.identity), 0.25f);
+        Instantiate(damageText, transform.position, Quaternion.identity);
+        damageText.GetComponentInChildren<TextMesh>().text = "-" + damage;
         health -= damage;
         animator.SetTrigger("Hit");
+        soundManager.PlaySound("cut");
     }
 }

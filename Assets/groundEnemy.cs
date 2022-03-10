@@ -13,7 +13,7 @@ public class groundEnemy : MonoBehaviour
 
     public bool isFacingRight;
 
-    public bool isEnemyInRange = false, isEnemyDetected = false;
+    public bool isEnemyInRange = false, isEnemyDetected = false, isFlinch = false;
     public float health;
     public float speed = 3;
     private float timeBtnAttack;
@@ -38,13 +38,15 @@ public class groundEnemy : MonoBehaviour
     void Update()
     {
         if (isEnemyDetected)
-            Attack();
+            if(!isFlinch)
+                Attack();
 
         anim.SetFloat("Speed", speed);
 
         //DoDelayMovement(4f);
 
-        transform.position += new Vector3(moveVector, 0, 0) * speed * Time.deltaTime;
+        if(!isFlinch)
+            transform.position += new Vector3(moveVector, 0, 0) * speed * Time.deltaTime;
     }
 
     void FixedUpdate()
@@ -73,33 +75,32 @@ public class groundEnemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Flinch();
         if (health <= 0)
         {
-            speed = 0;
             anim.SetBool("Dead", true);
             Destroy(gameObject, 1);
         }
         else
         {
             anim.SetTrigger("Hit");
-            Flinch();
             health -= damage;
         }
     }
 
     void Flinch()
     {
-        StartCoroutine(FlinchDelay(1f));
+        StartCoroutine(FlinchDelay(1.5f));
     }
 
     IEnumerator FlinchDelay(float delayTime)
     {
+        isFlinch = true;
         speed = 0;
 
         yield return new WaitForSeconds(delayTime);
 
-        yield return new WaitForSeconds(delayTime);
-
+        isFlinch = false;
         speed = 3;
     }
 

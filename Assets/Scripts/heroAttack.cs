@@ -16,12 +16,17 @@ public class heroAttack : MonoBehaviour
     public float attackRange;
     public int attackDamage;
 
+    public static bool isPaused = false;
+
     public GameObject spell;
 
     void Update()
     {
-        Attack();
-        CastSpell();
+        if (!isPaused)
+        {
+            Attack();
+            CastSpell();
+        }        
     }
 
     void OnDrawGizmosSelected()

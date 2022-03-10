@@ -38,16 +38,19 @@ public class fireBall : MonoBehaviour
     {
         if (collider.CompareTag("Enemy"))
         {
+            soundManager.PlaySound("fireball_impact");
             collider.GetComponent<Enemy>().TakeDamage(damage);
         }
 
         if (collider.CompareTag("GroundEnemy"))
         {
+            soundManager.PlaySound("fireball_impact");
             collider.GetComponent<groundEnemy>().TakeDamage(damage);
         }
 
         if (collider.CompareTag("Kana"))
         {
+            soundManager.PlaySound("fireball_impact");
             collider.GetComponent<kana>().TakeDamage(damage);
         }
     }

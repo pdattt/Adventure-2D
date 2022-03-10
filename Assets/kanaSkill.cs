@@ -26,18 +26,18 @@ public class kanaSkill : MonoBehaviour
 
     void Update()
     {
-        SkillCast();
+        //SkillCast();
 
-        if (isUsingSkill)
-        {
-            if (kanaMovement.Move(skillA[random].position))
-            {
-                if (random == 0 && !kana.isFacingRight)
-                    kanaStatus.Flip();
-                else if(random == 1 && kana.isFacingRight)
-                    kanaStatus.Flip();
-            }
-        }
+        //if (isUsingSkill)
+        //{
+        //    if (kanaMovement.Move(skillA[random].position))
+        //    {
+        //        if (random == 0 && !kana.isFacingRight)
+        //            kanaStatus.Flip();
+        //        else if(random == 1 && kana.isFacingRight)
+        //            kanaStatus.Flip();
+        //    }
+        //}
     }
 
     void SkillCast()

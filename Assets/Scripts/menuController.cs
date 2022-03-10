@@ -10,8 +10,13 @@ public class menuController : MonoBehaviour
         SceneManager.LoadScene("Difficulity");
     }
 
-    public void EasyMode()
+    public void Act1()
     {
         SceneManager.LoadScene("Adventure");
+    }
+
+    public void Act2()
+    {
+        SceneManager.LoadScene("Boss");
     }
 }
